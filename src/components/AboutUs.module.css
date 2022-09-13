@@ -1,0 +1,86 @@
+.content {
+  font-family: "Montserrat", sans-serif;
+}
+
+.h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  text-align: center;
+  font-size: 45px;
+  line-height: 55px;
+  color: #0b0b0b;
+}
+
+img {
+  width: 546.93px;
+  height: 439.84px;
+  border-radius: 19px;
+  filter: drop-shadow(20px 30px 20px rgba(0, 0, 0, 0.3));
+}
+
+.leaf_1 {
+  background-image: url("/public/images/Leaf-Desktop-1.png");
+  background-repeat: no-repeat;
+  background-position: top -64px left 400px;
+}
+
+.excerpt1 {
+  position: absolute;
+  width: 414px;
+  height: 175px;
+  left: 877px;
+  top: 320px;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0d0d0d;
+}
+
+.aboutUs1 {
+  position: relative;
+  left: 225px;
+  top: 170px;
+  height: 440px;
+  width: 534px;
+  z-index: 1;
+}
+
+.aboutUs2 {
+  position: relative;
+  right: 402px;
+  top: 60px;
+  height: 460px;
+  width: 572px;
+}
+
+.leaf_2 {
+  background-image: url("/public/images/Leaf-Desktop-2.png");
+  background-repeat: no-repeat;
+  background-position: top 455px right 473px;
+  height: 900px;
+}
+
+.excerpt2 {
+  position: absolute;
+  width: 380px;
+  height: 136px;
+  left: 181px;
+  top: 1000px;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0d0d0d;
+}
+.aboutUs3 {
+  position: relative;
+  left: 740px;
+  top: 348px;
+  height: 460px;
+  width: 572px;
+  z-index: 1;
+}
+.aboutUs4 {
+  position: relative;
+  left: 230px;
+  top: 227px;
+  height: 460px;
+  width: 572px;
+}
