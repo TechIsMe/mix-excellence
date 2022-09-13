@@ -1,0 +1,95 @@
+img {
+  width: 546.93px;
+  height: 439.84px;
+  filter: drop-shadow(20px 30px 20px rgba(0, 0, 0, 0.3));
+}
+
+.leaf_1 {
+  background-image: url("/public/images/Leaf-Desktop-1.png");
+  background-repeat: no-repeat;
+  background-position: top -64px left 400px;
+}
+
+.excerpt1 {
+  position: absolute;
+  width: 414px;
+  height: 175px;
+  left: 877px;
+  top: 320px;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0d0d0d;
+}
+
+.aboutUs1 {
+  position: relative;
+  left: 225px;
+  top: 170px;
+  height: 440px;
+  width: 534px;
+  z-index: 1;
+}
+
+.aboutUs2 {
+  position: relative;
+  right: 80px;
+  top: 60px;
+  height: 460px;
+  width: 572px;
+  transform: translateX(-60%);
+  z-index: 0;
+  transition: transform 0.5s ease, z-index 0s, right 0.5s ease;
+  transition-delay: 0s, 0.5s, 0.5s;
+}
+
+.aboutUs2:hover {
+  right: 510px;
+  z-index: 12;
+  transform: translateX(80px);
+  /* transition: left 0.5s ease, z-index 0s, transform 0.5s ease; */
+  transition-delay: 0s, 0.5s, 0.5s;
+}
+.leaf_2 {
+  background-image: url("/public/images/Leaf-Desktop-2.png");
+  background-repeat: no-repeat;
+  background-position: top 455px right 473px;
+  height: 900px;
+}
+
+.excerpt2 {
+  position: absolute;
+  width: 380px;
+  height: 136px;
+  left: 181px;
+  top: 1000px;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0d0d0d;
+}
+.aboutUs3 {
+  position: relative;
+  left: 740px;
+  top: 348px;
+  height: 460px;
+  width: 572px;
+  z-index: 1;
+}
+.aboutUs4 {
+  position: relative;
+  left: -220px;
+  top: 227px;
+  height: 460px;
+  width: 572px;
+  transform: translateX(80%);
+  z-index: 0;
+  transition: transform 0.5s ease, z-index 0s, left 0.5s ease;
+  transition-delay: 0s, 0.5s, 0.5s;
+}
+
+.aboutUs4:hover {
+  left: 150px;
+  z-index: 12;
+  transform: translateX(80px);
+  /* transition: left 0.5s ease, z-index 0s, transform 0.5s ease; */
+  transition-delay: 0s, 0.5s, 0.5s;
+}
