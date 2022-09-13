@@ -46,12 +46,23 @@ img {
 
 .aboutUs2 {
   position: relative;
-  right: 402px;
+  right: 170px;
   top: 60px;
   height: 460px;
   width: 572px;
+  transform: translateX(-45%);
+  z-index: 0;
+  transition: transform 0.5s ease, z-index 0s, right 0.5s ease;
+  transition-delay: 0s, 0.5s, 0.5s;
 }
 
+.aboutUs2:hover {
+  right: 510px;
+  z-index: 12;
+  transform: translateX(80px);
+  transition: right 0.5s ease, z-index 0s, transform 0.5s ease;
+  transition-delay: 0s, 0.5s, 0.5s;
+}
 .leaf_2 {
   background-image: url("/public/images/Leaf-Desktop-2.png");
   background-repeat: no-repeat;
