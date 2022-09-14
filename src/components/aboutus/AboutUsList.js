@@ -3,7 +3,7 @@ import AboutUsItems from "./AboutUsItems";
 
 const AboutUsList = (props) => {
   return (
-    <div>
+    <>
       {props.aboutus.map((about) => (
         <AboutUsItems
           key={about.id}
@@ -17,7 +17,7 @@ const AboutUsList = (props) => {
           image2={about.image2}
         />
       ))}
-    </div>
+    </>
   );
 };
 

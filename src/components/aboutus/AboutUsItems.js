@@ -1,9 +1,9 @@
 import React from "react";
-import classes from "./AboutUs.module.css";
+import classes from "./AboutUsItems.module.css";
 
 const AboutUsItems = (props) => {
   return (
-    <div>
+    <>
       <section className={classes[props.leafBackground]}>
         <p className={classes[props.introClass]}>{props.intro}</p>
         <img
@@ -17,7 +17,7 @@ const AboutUsItems = (props) => {
           alt="About-Us-2"
         />
       </section>
-    </div>
+    </>
   );
 };
 

@@ -21,7 +21,7 @@ img {
   color: #0d0d0d;
 }
 
-.aboutUs1 {
+.topImage1 {
   position: relative;
   left: 225px;
   top: 170px;
@@ -30,7 +30,7 @@ img {
   z-index: 1;
 }
 
-.aboutUs2 {
+.topImage2 {
   position: relative;
   right: 80px;
   top: 60px;
@@ -42,7 +42,7 @@ img {
   transition-delay: 0s, 0.5s, 0.5s;
 }
 
-.aboutUs2:hover {
+.topImage2:hover {
   right: 510px;
   z-index: 12;
   transform: translateX(80px);
@@ -66,7 +66,7 @@ img {
   line-height: 24px;
   color: #0d0d0d;
 }
-.aboutUs3 {
+.bottomImage1 {
   position: relative;
   left: 740px;
   top: 348px;
@@ -74,7 +74,7 @@ img {
   width: 572px;
   z-index: 1;
 }
-.aboutUs4 {
+.bottomImage2 {
   position: relative;
   left: -220px;
   top: 227px;
@@ -86,7 +86,7 @@ img {
   transition-delay: 0s, 0.5s, 0.5s;
 }
 
-.aboutUs4:hover {
+.bottomImage2:hover {
   left: 150px;
   z-index: 12;
   transform: translateX(80px);

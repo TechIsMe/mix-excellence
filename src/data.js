@@ -1,8 +1,8 @@
 export const ABOUT_DATA = [
   {
     id: 1,
-    image1Class: "aboutUs1",
-    image2Class: "aboutUs2",
+    image1Class: "topImage1",
+    image2Class: "topImage2",
     leafBackground: "leaf_1",
     introClass: "excerpt1",
     intro:
@@ -12,9 +12,9 @@ export const ABOUT_DATA = [
   },
   {
     id: 2,
-    image1Class: "aboutUs3",
-    image2Class: "aboutUs4",
-    leafBackground: "leaf_2",
+    image1Class: "bottomImage1",
+    image2Class: "bottomImage2",
+    leafBackground: `"leaf_2"`,
     introClass: "excerpt2",
     intro:
       " We supply everything that a bar would require except the alcohol itself. (Cups, napkins, straws, juices, mixers, garnishes ice, ect.) Along with great service and a fun and professional experience.",
