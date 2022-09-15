@@ -5,6 +5,13 @@ What I Learned:
 However, this took an unexpected turn. I also needed to pass in the css classes. I couldn't just simply pass in classes from the module.css file, because I am mapping through data that has different styles.
 
 Targeting the css module classes as I normally would returns a {TypeError}.  
-`className={classes.props.leafBackground}`
+`className={classes.props.introBackground}`
 It took me severals hours of testing to realize that since I was mapping I had to target the css module classes as a string.
-`className={classes[props.leafBackground]}`
+`className={classes[props.introBackground]}`
+
+However, the best work around was to NOT use an array of data objects. But just one object with specific naming of data for this page.
+
+Since this is just one page with one purpose we could pass in specific props and classes styles
+
+This also eliminated the use of mapping through AboutUsList.js
+`<AboutUsItems introBackground={about.introBackground}/>`

@@ -4,13 +4,14 @@ img {
   filter: drop-shadow(20px 30px 20px rgba(0, 0, 0, 0.3));
 }
 
-.leaf_1 {
+.introBackground {
   background-image: url("/public/images/Leaf-Desktop-1.png");
   background-repeat: no-repeat;
   background-position: top -64px left 400px;
 }
+/* Add responsive to intro. On smaller screen display intro and service as a paragraph. */
 
-.excerpt1 {
+.intro {
   position: absolute;
   width: 414px;
   height: 175px;
@@ -21,7 +22,8 @@ img {
   color: #0d0d0d;
 }
 
-.topImage1 {
+/* Add responsive to images. On smaller screen make turn images into carousel */
+.introImage1 {
   position: relative;
   left: 225px;
   top: 170px;
@@ -30,7 +32,7 @@ img {
   z-index: 1;
 }
 
-.topImage2 {
+.introImage2 {
   position: relative;
   right: 80px;
   top: 60px;
@@ -42,31 +44,31 @@ img {
   transition-delay: 0s, 0.5s, 0.5s;
 }
 
-.topImage2:hover {
+.introImage2:hover {
   right: 510px;
   z-index: 12;
   transform: translateX(80px);
   /* transition: left 0.5s ease, z-index 0s, transform 0.5s ease; */
   transition-delay: 0s, 0.5s, 0.5s;
 }
-.leaf_2 {
+.serviceBackground {
   background-image: url("/public/images/Leaf-Desktop-2.png");
   background-repeat: no-repeat;
-  background-position: top 455px right 473px;
+  background-position: top 455px right 300px;
   height: 900px;
 }
 
-.excerpt2 {
+.service {
   position: absolute;
   width: 380px;
   height: 136px;
-  left: 181px;
+  left: 296px;
   top: 1000px;
   font-size: 20px;
   line-height: 24px;
   color: #0d0d0d;
 }
-.bottomImage1 {
+.serviceImage1 {
   position: relative;
   left: 740px;
   top: 348px;
@@ -74,7 +76,7 @@ img {
   width: 572px;
   z-index: 1;
 }
-.bottomImage2 {
+.serviceImage2 {
   position: relative;
   left: -220px;
   top: 227px;
@@ -86,7 +88,7 @@ img {
   transition-delay: 0s, 0.5s, 0.5s;
 }
 
-.bottomImage2:hover {
+.serviceImage2:hover {
   left: 150px;
   z-index: 12;
   transform: translateX(80px);

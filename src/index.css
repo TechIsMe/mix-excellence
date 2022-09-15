@@ -8,7 +8,7 @@ body {
     "Montserrat" sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  width: 1440px;
+  width: 100%;
 
   background: #f6f6f6;
 }
