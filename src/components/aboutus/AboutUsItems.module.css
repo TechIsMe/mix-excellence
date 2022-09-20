@@ -1,6 +1,6 @@
 img {
-  width: 546.93px;
-  height: 439.84px;
+  /* width: 546.93px;
+  height: 439.84px; */
   filter: drop-shadow(20px 30px 20px rgba(0, 0, 0, 0.3));
 }
 
@@ -12,12 +12,17 @@ img {
 /* Add responsive to intro. On smaller screen display intro and service as a paragraph. */
 
 .intro {
-  position: absolute;
+  position: relative;
+  left: 877px;
+  bottom: 250px;
+}
+.text {
   width: 414px;
   height: 175px;
-  left: 877px;
-  top: 320px;
-  font-size: 20px;
+  font-family: "Montserrat" sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
   line-height: 24px;
   color: #0d0d0d;
 }
@@ -25,7 +30,7 @@ img {
 /* Add responsive to images. On smaller screen make turn images into carousel */
 .introImage1 {
   position: relative;
-  left: 225px;
+  left: 195px;
   top: 170px;
   height: 440px;
   width: 534px;
@@ -34,11 +39,11 @@ img {
 
 .introImage2 {
   position: relative;
-  right: 80px;
+  right: 600px;
   top: 60px;
   height: 460px;
   width: 572px;
-  transform: translateX(-60%);
+  transform: translateX(30%);
   z-index: 0;
   transition: transform 0.5s ease, z-index 0s, right 0.5s ease;
   transition-delay: 0s, 0.5s, 0.5s;
@@ -54,35 +59,29 @@ img {
 .serviceBackground {
   background-image: url("/public/images/Leaf-Desktop-2.png");
   background-repeat: no-repeat;
-  background-position: top 455px right 300px;
-  height: 900px;
+  background-position: top 280px right 445px;
 }
 
 .service {
-  position: absolute;
-  width: 380px;
-  height: 136px;
-  left: 296px;
-  top: 1000px;
-  font-size: 20px;
-  line-height: 24px;
-  color: #0d0d0d;
+  position: relative;
+  left: 250px;
+  bottom: 400px;
 }
 .serviceImage1 {
   position: relative;
   left: 740px;
-  top: 348px;
+  bottom: 5px;
   height: 460px;
   width: 572px;
   z-index: 1;
 }
 .serviceImage2 {
   position: relative;
-  left: -220px;
-  top: 227px;
+  left: 244px;
+  bottom: 125px;
   height: 460px;
   width: 572px;
-  transform: translateX(80%);
+  transform: translateX(0%);
   z-index: 0;
   transition: transform 0.5s ease, z-index 0s, left 0.5s ease;
   transition-delay: 0s, 0.5s, 0.5s;
