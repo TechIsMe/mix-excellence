@@ -15,7 +15,7 @@ const MainNavigation = () => {
       <nav className={classes.nav}>
         <ul className={classes.ul}>
           <li className={classes.li}>
-            <Link to="/">About Us</Link>
+            <Link to="/aboutus">About Us</Link>
           </li>
           <li>
             <Link to="/admin-aboutus">Add About Us</Link>
