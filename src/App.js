@@ -4,16 +4,18 @@ import AboutUs from "./pages/AboutUs";
 import AdminAboutPage from "./pages/AdminAboutUs";
 import Layout from "./layout/Layout";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Navigation from "./components/navbar/Navigation";
 
 function App() {
   return (
     <div className="App">
       <Layout>
+        <Navigation />
         <Routes>
-          {/* <Route path="/" exact element={<AboutUs />}></Route> */}
+          <Route path="/" exact element={<AboutUs id="aboutUs" />}></Route>
           <Route path="/admin-aboutus" element={<AdminAboutPage />}></Route>
         </Routes>
-        <AboutUs />
+        {/* <AboutUs /> */}
       </Layout>
     </div>
   );

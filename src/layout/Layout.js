@@ -17,7 +17,6 @@ const Layout = (props) => {
   return (
     <>
       <GlobalStyles />
-      <Navigation />
       {isDesktop && <MainNavigation />}
       <main className={classes.main}>{props.children}</main>
     </>
