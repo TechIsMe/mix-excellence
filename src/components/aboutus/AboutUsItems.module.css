@@ -1,0 +1,96 @@
+img {
+  /* width: 546.93px;
+  height: 439.84px; */
+  filter: drop-shadow(20px 30px 20px rgba(0, 0, 0, 0.3));
+}
+
+.introBackground {
+  background-image: url("/public/images/Leaf-Desktop-1.png");
+  background-repeat: no-repeat;
+  background-position: top -64px left 400px;
+}
+/* Add responsive to intro. On smaller screen display intro and service as a paragraph. */
+
+.intro {
+  position: relative;
+  left: 877px;
+  bottom: 250px;
+}
+.text {
+  width: 414px;
+  height: 175px;
+  font-family: "Montserrat" sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 24px;
+  color: #0d0d0d;
+}
+
+/* Add responsive to images. On smaller screen make turn images into carousel */
+.introImage1 {
+  position: relative;
+  left: 195px;
+  top: 170px;
+  height: 440px;
+  width: 534px;
+  z-index: 1;
+}
+
+.introImage2 {
+  position: relative;
+  right: 600px;
+  top: 60px;
+  height: 460px;
+  width: 572px;
+  transform: translateX(30%);
+  z-index: 0;
+  transition: transform 0.5s ease, z-index 0s, right 0.5s ease;
+  transition-delay: 0s, 0.5s, 0.5s;
+}
+
+.introImage2:hover {
+  right: 510px;
+  z-index: 12;
+  transform: translateX(80px);
+  /* transition: left 0.5s ease, z-index 0s, transform 0.5s ease; */
+  transition-delay: 0s, 0.5s, 0.5s;
+}
+.serviceBackground {
+  background-image: url("/public/images/Leaf-Desktop-2.png");
+  background-repeat: no-repeat;
+  background-position: top 280px right 445px;
+}
+
+.service {
+  position: relative;
+  left: 210px;
+  top: 250px;
+}
+.serviceImage1 {
+  position: relative;
+  left: 740px;
+  bottom: 5px;
+  height: 460px;
+  width: 572px;
+  z-index: 1;
+}
+.serviceImage2 {
+  position: relative;
+  left: 244px;
+  bottom: 125px;
+  height: 460px;
+  width: 572px;
+  transform: translateX(0%);
+  z-index: 0;
+  transition: transform 0.5s ease, z-index 0s, left 0.5s ease;
+  transition-delay: 0s, 0.5s, 0.5s;
+}
+
+.serviceImage2:hover {
+  left: 150px;
+  z-index: 12;
+  transform: translateX(80px);
+  /* transition: left 0.5s ease, z-index 0s, transform 0.5s ease; */
+  transition-delay: 0s, 0.5s, 0.5s;
+}
