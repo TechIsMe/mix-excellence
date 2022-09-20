@@ -31,7 +31,7 @@ export const uploadToStorage = async (file, fileDestination) => {
   //Get the url location of the file in cloud storage
   let url = await getDownloadURL(reference);
   console.log(url);
-  return { url, reference, snapshot };
+  return { url, reference, snapshot, fileDestination };
 };
 
 //This function will take a src and convert it into a File() object.

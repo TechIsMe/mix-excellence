@@ -8,12 +8,12 @@ const AboutUsItems = (props) => {
       <section className={classes.introBackground}>
         <img
           className={classes.introImage1}
-          src={props.image1}
+          src={props.image1.url}
           alt="About-Us-1"
         />
         <img
           className={classes.introImage2}
-          src={props.image2}
+          src={props.image2.url}
           alt="About-Us-2"
         />
         <p className={`${classes.text} ${classes.intro}`}>{props.intro}</p>
@@ -24,12 +24,12 @@ const AboutUsItems = (props) => {
         <div>
           <img
             className={classes.serviceImage1}
-            src={props.image3}
+            src={props.image3.url}
             alt="About-Us-3"
           />
           <img
             className={classes.serviceImage2}
-            src={props.image4}
+            src={props.image4.url}
             alt="About-Us-4"
           />
         </div>

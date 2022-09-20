@@ -41,10 +41,22 @@ const AdminAboutUsForm = (props) => {
     const aboutUsData = {
       intro: enteredIntro,
       service: enteredService,
-      image1: imageResponse1.url,
-      image2: imageResponse2.url,
-      image3: imageResponse3.url,
-      image4: imageResponse4.url,
+      image1: {
+        url: imageResponse1.url,
+        fileLocation: imageResponse1.fileDestination,
+      },
+      image2: {
+        url: imageResponse2.url,
+        fileLocation: imageResponse2.fileDestination,
+      },
+      image3: {
+        url: imageResponse3.url,
+        fileLocation: imageResponse3.fileDestination,
+      },
+      image4: {
+        url: imageResponse4.url,
+        fileLocation: imageResponse4.fileDestination,
+      },
     };
     props.onAddAboutUs(aboutUsData);
     console.log(aboutUsData);

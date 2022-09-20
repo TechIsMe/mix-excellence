@@ -8,7 +8,7 @@ function App() {
   return (
     <Layout>
       <Routes>
-        <Route path="/aboutus" exact element={<AboutUs />}></Route>
+        {/* <Route path="/" exact element={<AboutUs />}></Route> */}
         <Route path="/admin-aboutus" element={<AdminAboutPage />}></Route>
       </Routes>
       {<AboutUs />}
