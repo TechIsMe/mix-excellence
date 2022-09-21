@@ -1,4 +1,5 @@
 ## Johnson Thieu
+
 What I Learned:
 
 1. After building out the About Us page using jsx and css module, I realized that the data being rendered may need to be updated by the client. Therefore, I built separate smaller components and pages and passed in the data using props.

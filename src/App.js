@@ -8,6 +8,7 @@ import Navigation from "./components/navbar/Navigation";
 import Banner from "./components/banner/Banner";
 import Hero from "./components/hero/Hero";
 
+import Mixologist from "./pages/Mixologist";
 
 function App() {
   return (
@@ -17,10 +18,15 @@ function App() {
         <Banner />
         <Hero />
         <Routes>
-          <Route path="/" exact element={<AboutUs id="aboutUs" />}></Route>
+          {/* <Route path="/" exact element={<AboutUs id="aboutUs" />}></Route>
+          <Route
+            path="/mixologist"
+            element={<Mixologist id="mixologist" />}
+          ></Route> */}
           <Route path="/admin-aboutus" element={<AdminAboutPage />}></Route>
         </Routes>
-        {/* <AboutUs /> */}
+        <AboutUs id="aboutUs" />
+        <Mixologist id="mixologist" />
       </Layout>
     </div>
   );
