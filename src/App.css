@@ -79,5 +79,18 @@ color: white;
   margin-top: -250px;
 }
 
+/* footer */
 
+.main-footer {
+  color: white;
+  background-color: black;
+  /* position: relative;  */
+  /* bottom: 1px; */
+  padding: 40px;
+  width: 100%;
+}
 
+.list-unstyled{
+  font-size: 100%;
+  align-items: center;
+}

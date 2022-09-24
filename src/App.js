@@ -7,6 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navigation from "./components/navbar/Navigation";
 import Banner from "./components/banner/Banner";
 import Hero from "./components/hero/Hero";
+import Footer from "./components/footer/Footer";
 
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
           <Route path="/admin-aboutus" element={<AdminAboutPage />}></Route>
         </Routes>
         {/* <AboutUs /> */}
+        <Footer />
+
       </Layout>
     </div>
   );
