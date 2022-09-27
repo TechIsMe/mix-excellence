@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import MixologistList from "../components/mixologist/MixologistList";
 import classes from "./Mixologist.module.css";
 
-// import { ABOUT_DATA } from "../data";
+// import { MIXOLOGISTS } from "../data";
 
 const Mixologist = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -21,15 +21,18 @@ const Mixologist = () => {
         const mixologistMembers = [];
         for (const key in data) {
           const mixologist = {
-            id: key,
             ...data[key],
           };
+
           mixologistMembers.push(mixologist);
+          console.log(data);
         }
+
         // can add error handling here
         setIsLoading(false);
         setLoadedMixologist(mixologistMembers);
-      });
+      })
+      .catch((error) => console.log(error));
 
     // if second arguement was omitted, react will run the useEffect whenever the function component executes. That is why second aregument is needed because react will check the values added to array and compare to its last execution. IF its empty, react will then run the fetch function
   }, []);

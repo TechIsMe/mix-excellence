@@ -9,17 +9,17 @@ const MixologistList = (props) => {
           key={mixologist.id}
           id={mixologist.id}
           mixologist1Name={mixologist.mixologist1Name}
-          mixologist2Name={mixologist.mixologist2Name}
-          mixologist3Name={mixologist.mixologist3Name}
-          mixologist4Name={mixologist.mixologist4Name}
           mixologist1Intro={mixologist.mixologist1Intro}
-          mixologist2Intro={mixologist.mixologist2Intro}
-          mixologist3Intro={mixologist.mixologist3Intro}
-          mixologist4Intro={mixologist.mixologist4Intro}
           mixologistImage1={mixologist.mixologistImage1}
-          mixologistImage2={mixologist.mixologistImage2}
-          mixologistImage3={mixologist.mixologistImage3}
-          mixologistImage4={mixologist.mixologistImage4}
+          // mixologist2Name={mixologist.mixologist2Name}
+          // mixologist2Intro={mixologist.mixologist2Intro}
+          // mixologistImage2={mixologist.mixologistImage2}
+          // mixologist3Name={mixologist.mixologist3Name}
+          // mixologist3Intro={mixologist.mixologist3Intro}
+          // mixologistImage3={mixologist.mixologistImage3}
+          // mixologist4Name={mixologist.mixologist4Name}
+          // mixologist4Intro={mixologist.mixologist4Intro}
+          // mixologistImage4={mixologist.mixologistImage4}
         />
       ))}
     </>

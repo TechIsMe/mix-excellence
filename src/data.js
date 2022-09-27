@@ -20,3 +20,26 @@ export const ABOUT_DATA = [
     image4: `${process.env.PUBLIC_URL + "/images/About-Us-Image-4.png"}`,
   },
 ];
+
+export const MIXOLOGISTS = [
+  {
+    id: 1,
+    name: "Noel",
+    image: `${process.env.PUBLIC_URL + "/images/Mixologist-Image-1"}`,
+  },
+  {
+    id: 2,
+    name: "Jack",
+    image: `${process.env.PUBLIC_URL + "/images/Mixologist-Image-1"}`,
+  },
+  {
+    id: 3,
+    name: "Noah",
+    image: `${process.env.PUBLIC_URL + "/images/Mixologist-Image-1"}`,
+  },
+  {
+    id: 4,
+    name: "James",
+    image: `${process.env.PUBLIC_URL + "/images/Mixologist-Image-1"}`,
+  },
+];

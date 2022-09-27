@@ -24,6 +24,7 @@ const AdminAboutPage = (props) => {
       //   Go forward
       // </button>
       // <button onClick={() => navigate(2)}>
+      window.location.reload();
     });
   };
 
@@ -47,6 +48,7 @@ const AdminAboutPage = (props) => {
       //   Go forward
       // </button>
       // <button onClick={() => navigate(2)}>
+      window.location.reload();
     });
   };
   return (
