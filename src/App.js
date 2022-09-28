@@ -7,8 +7,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navigation from "./components/navbar/Navigation";
 import Banner from "./components/banner/Banner";
 import Hero from "./components/hero/Hero";
-// import OurDrinks from "./components/popular-drinks/ourDrinks";
+import OurDrinks from "./components/popular-drinks/ourDrinks";
 
+import Footer from "./components/footer/Footer";
+// import Testimony from "./components/testimony/Testimony";
 
 
 function App() {
@@ -18,14 +20,19 @@ function App() {
         <Navigation />
         <Banner />
         <Hero />
+        {/* <Footer /> */}
 
         <Routes>
           <Route path="/" exact element={<AboutUs id="aboutUs" />}></Route>
           <Route path="/admin-aboutus" element={<AdminAboutPage />}></Route>
         </Routes>
         {/* <AboutUs /> */}
+
       </Layout>
-      {/* <OurDrinks /> */}
+      <OurDrinks />
+      {/* <Testimony /> */}
+      <Footer />
+
     </div>
   );
 }
