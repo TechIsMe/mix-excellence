@@ -7,9 +7,15 @@
 .mixologists {
   display: flex;
   text-align: center;
+  padding: 0 50px;
 }
 
 h1 {
   margin-bottom: 40px;
   text-align: center;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 45px;
+  line-height: 55px;
+  letter-spacing: 5px;
 }

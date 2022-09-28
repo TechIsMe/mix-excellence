@@ -3,6 +3,11 @@
   text-align: center;
   width: 45%;
 }
+.image {
+  width: 164px;
+  height: 164px;
+  border-radius: 100px;
+}
 .name {
   padding: 20px;
   font-style: normal;
