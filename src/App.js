@@ -21,23 +21,16 @@ function App() {
         <Navigation />
         <Banner />
         <Hero />
-        {/* <Footer /> */}
 
         <Routes>
-          {/* <Route path="/" exact element={<AboutUs id="aboutUs" />}></Route>
-          <Route
-            path="/mixologist"
-            element={<Mixologist id="mixologist" />}
-          ></Route> */}
           <Route path="/admin-aboutus" element={<AdminAboutPage />}></Route>
         </Routes>
         <AboutUs id="aboutUs" />
         <Mixologist id="mixologist" />
-        {/* <AboutUs /> */}
+        <OurDrinks />
+        {/* <Testimony /> */}
         <Footer />
       </Layout>
-      <OurDrinks />
-      {/* <Testimony /> */}
     </div>
   );
 }
