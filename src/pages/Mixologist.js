@@ -46,9 +46,11 @@ const Mixologist = () => {
   }
 
   return (
-    <div id="mixologists" className={classes.content}>
+    <div className={classes.content}>
       <h1 className={classes.h1}>Meet Our Mixologists</h1>
-      <MixologistList mixologists={loadedMixologist} />
+      <section className={classes.mixologists}>
+        <MixologistList mixologists={loadedMixologist} />
+      </section>
     </div>
   );
 };
