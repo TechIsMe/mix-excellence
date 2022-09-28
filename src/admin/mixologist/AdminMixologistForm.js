@@ -38,7 +38,11 @@ const AdminMixologistForm = (props) => {
 
   return (
     <>
-      <form className={classes.form} onSubmit={submitHandler}>
+      <form
+        id="admin-mixologist-form"
+        className={classes.form}
+        onSubmit={submitHandler}
+      >
         <div className={classes.control}>
           <label htmlFor="mixologistImage1">Mixologist 1 photo</label>
           <input

@@ -13,18 +13,24 @@ import Footer from "./components/footer/Footer";
 // import Testimony from "./components/testimony/Testimony";
 
 import Mixologist from "./pages/Mixologist";
+import AdminMixologistForm from "./admin/mixologist/AdminMixologistForm";
 
 function App() {
   return (
     <div className="App">
       <Layout>
-        <Navigation />
-        <Banner />
-        <Hero />
-
         <Routes>
           <Route path="/admin-aboutus" element={<AdminAboutPage />}></Route>
         </Routes>
+        <Routes>
+          <Route
+            path="/admin-mixologist-form"
+            element={<AdminMixologistForm />}
+          ></Route>
+        </Routes>
+        <Navigation />
+        <Banner />
+        <Hero />
         <AboutUs id="aboutUs" />
         <Mixologist id="mixologist" />
         <OurDrinks />

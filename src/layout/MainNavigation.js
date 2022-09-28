@@ -10,6 +10,9 @@ const AdminNav = () => {
           <li>
             <Link to="/admin-aboutus">Add About Us</Link>
           </li>
+          <li>
+            <Link to="admin-mixologist-form">Add Mixologist</Link>
+          </li>
         </ul>
       </nav>
     </header>
