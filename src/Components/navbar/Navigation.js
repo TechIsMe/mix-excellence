@@ -72,9 +72,17 @@ function Navigation() {
               >
                 Reviews
               </Nav.Link>
-              <button className="vvd ">
-                <span> Mixcellence</span>
-              </button>
+              <Nav.Link
+                href="#home"
+                className={
+                  activeLink === "home" ? "active navbar-link" : "navbar-link"
+                }
+                onClick={() => onUpdateActiveLink("home")}
+              >
+                <button className="vvd ">
+                  <span> Mixcellence</span>
+                </button>
+              </Nav.Link>
             </Nav>
             <span className="navbar-text">
               <button className="vvd">

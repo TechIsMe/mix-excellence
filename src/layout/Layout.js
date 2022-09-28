@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
-import GlobalStyles from "../components/aboutus/GlobalStyle";
-import Navigation from "../components/navbar/Navigation";
+import GlobalStyles from "./GlobalStyle";
 import MainNavigation from "../layout/MainNavigation";
 import classes from "./Layout.module.css";
 const Layout = (props) => {
