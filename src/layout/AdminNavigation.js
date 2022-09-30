@@ -2,18 +2,15 @@ import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import classes from "./AdminNavigation.module.css";
 import AuthContext from "../store/auth-context";
-import { useNavigate } from "react-router-dom";
 
 const AdminNavigation = () => {
   const authCtx = useContext(AuthContext);
   const isLoggedIn = authCtx.isLoggedIn;
-  const history = useNavigate();
 
-  // const history = useHistory();
+  // const navigate = useHistory();
   const logoutHandler = () => {
     authCtx.logout();
     // can useHistory to redirect too
-    history("/");
   };
   return (
     <header className={classes.adminHeader}>
@@ -27,6 +24,9 @@ const AdminNavigation = () => {
           {isLoggedIn && (
             <ul>
               <li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
                 <Link to="/profile">Profile</Link>
               </li>
               <li>
@@ -39,7 +39,9 @@ const AdminNavigation = () => {
           )}
           {isLoggedIn && (
             <li>
-              <Link onClick={logoutHandler}>Logout</Link>
+              <Link to="/" onClick={logoutHandler}>
+                Logout
+              </Link>
             </li>
           )}
         </ul>

@@ -24,20 +24,6 @@ function App() {
   return (
     <div className="App">
       <Layout>
-        {authCtx.isLoggedIn && (
-          <Routes>
-            <Route path="/admin-aboutus" element={<AdminAboutPage />}></Route>
-            <Route
-              path="/admin-mixologist-form"
-              element={<AdminMixologistForm />}
-            ></Route>
-          </Routes>
-        )}
-        <Routes>
-          {!authCtx.isLoggedIn && (
-            <Route path="/auth" element={<AuthPage />}></Route>
-          )}
-        </Routes>
         <Routes>
           <Route
             path="/"
@@ -52,6 +38,18 @@ function App() {
               <Footer />,
             ]}
           ></Route>
+          {authCtx.isLoggedIn && (
+            <>
+              <Route path="/admin-aboutus" element={<AdminAboutPage />}></Route>
+              <Route
+                path="/admin-mixologist-form"
+                element={<AdminMixologistForm />}
+              ></Route>
+            </>
+          )}
+          {!authCtx.isLoggedIn && (
+            <Route path="/auth" element={<AuthPage />}></Route>
+          )}
         </Routes>
       </Layout>
     </div>
