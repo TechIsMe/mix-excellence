@@ -27,9 +27,6 @@ const AdminNavigation = () => {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/profile">Profile</Link>
-              </li>
-              <li>
                 <Link to="/admin-aboutus-form">Add About Us</Link>
               </li>
               <li>
