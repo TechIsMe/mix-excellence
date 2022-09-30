@@ -29,7 +29,7 @@ const AdminAboutPage = (props) => {
   };
   return (
     <section>
-      <h1>Add About Us</h1>
+      <h1>Add Mixologist</h1>
       <AdminMixologistForm
         onAddMixologist={addMixologistHandler}
         onClick={() => history("/admin-mixologist")}
