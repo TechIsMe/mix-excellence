@@ -1,5 +1,9 @@
 import "./App.css";
-import { Route, Routes } from "react-router-dom";
+import { useContext } from "react";
+import AuthContext from "./store/auth-context";
+import AuthPage from "./pages/AuthPage";
+
+import { Route, Routes, Navigate } from "react-router-dom";
 import AboutUs from "./pages/AboutUs";
 import AdminAboutPage from "./admin/aboutus/AdminAboutUs";
 import Layout from "./layout/Layout";
@@ -16,26 +20,39 @@ import Mixologist from "./pages/Mixologist";
 import AdminMixologistForm from "./admin/mixologist/AdminMixologistForm";
 
 function App() {
+  const authCtx = useContext(AuthContext);
   return (
     <div className="App">
       <Layout>
+        {authCtx.isLoggedIn && (
+          <Routes>
+            <Route path="/admin-aboutus" element={<AdminAboutPage />}></Route>
+            <Route
+              path="/admin-mixologist-form"
+              element={<AdminMixologistForm />}
+            ></Route>
+          </Routes>
+        )}
         <Routes>
-          <Route path="/admin-aboutus" element={<AdminAboutPage />}></Route>
+          {!authCtx.isLoggedIn && (
+            <Route path="/auth" element={<AuthPage />}></Route>
+          )}
         </Routes>
         <Routes>
           <Route
-            path="/admin-mixologist-form"
-            element={<AdminMixologistForm />}
+            path="/"
+            exact
+            element={[
+              <Navigation />,
+              <Banner />,
+              <Hero />,
+              <AboutUs id="aboutUs" />,
+              <Mixologist id="mixologist" />,
+              <OurDrinks />,
+              <Footer />,
+            ]}
           ></Route>
         </Routes>
-        <Navigation />
-        <Banner />
-        <Hero />
-        <AboutUs id="aboutUs" />
-        <Mixologist id="mixologist" />
-        <OurDrinks />
-        {/* <Testimony /> */}
-        <Footer />
       </Layout>
     </div>
   );

@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import AdminAboutUsForm from "./AdminAboutUsForm";
-import AdminMixologistForm from "../mixologist/AdminMixologistForm";
+
 const AdminAboutPage = (props) => {
   const history = useNavigate();
   const addAboutusHandler = (aboutUsData) => {
