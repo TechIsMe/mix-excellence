@@ -1,22 +1,26 @@
-import React, { useState, useEffect } from "react";
+import React, { useContext } from "react";
+import AuthContext from "../store/auth-context";
+
 import GlobalStyles from "./GlobalStyle";
-import MainNavigation from "../layout/MainNavigation";
+import AdminNavigation from "./AdminNavigation";
 import classes from "./Layout.module.css";
 const Layout = (props) => {
-  const [isDesktop, setDesktop] = useState(window.innerWidth > 1275);
+  // const [isDesktop, setDesktop] = useState(window.innerWidth > 1440);
 
-  const updateMedia = () => {
-    setDesktop(window.innerWidth > 1275);
-  };
+  // const updateMedia = () => {
+  //   setDesktop(window.innerWidth > 1275);
+  // };
 
-  useEffect(() => {
-    window.addEventListener("resize", updateMedia);
-    return () => window.removeEventListener("resize", updateMedia);
-  });
+  // useEffect(() => {
+  //   window.addEventListener("resize", updateMedia);
+  //   return () => window.removeEventListener("resize", updateMedia);
+  // });
+  const authCtx = useContext(AuthContext);
+  const isLoggedIn = authCtx.isLoggedIn;
   return (
     <>
       <GlobalStyles />
-      {isDesktop && <MainNavigation />}
+      {isLoggedIn && <AdminNavigation />}
       <main className={classes.main}>{props.children}</main>
     </>
   );

@@ -4,12 +4,15 @@ import "./index.css";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
+import { AuthContextProider } from "./store/auth-context";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>
+  <AuthContextProider>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </AuthContextProider>
 );
 
 // If you want to start measuring performance in your app, pass a function
