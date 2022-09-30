@@ -30,7 +30,7 @@ const AdminNavigation = () => {
                 <Link to="/profile">Profile</Link>
               </li>
               <li>
-                <Link to="/admin-aboutus">Add About Us</Link>
+                <Link to="/admin-aboutus-form">Add About Us</Link>
               </li>
               <li>
                 <Link to="admin-mixologist-form">Add Mixologist</Link>

@@ -40,11 +40,15 @@ function App() {
           ></Route>
           {authCtx.isLoggedIn && (
             <>
-              <Route path="/admin-aboutus" element={<AdminAboutPage />}></Route>
+              <Route path="/admin-aboutus-form" element={<AdminAboutPage />}>
+                {!authCtx.isLoggedIn && <Navigate to="/" />}
+              </Route>
               <Route
                 path="/admin-mixologist-form"
                 element={<AdminMixologistForm />}
-              ></Route>
+              >
+                {!authCtx.isLoggedIn && <Navigate to="/" />}
+              </Route>
             </>
           )}
           {!authCtx.isLoggedIn && (
