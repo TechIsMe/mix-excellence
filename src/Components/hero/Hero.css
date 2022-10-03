@@ -1,0 +1,20 @@
+.hero{
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+  }
+
+  /* .hero img:hover{
+    background-color: gainsboro;
+  } */
+  
+  .hero-wrapper{
+    background-color: #121212;
+  }
+  .hero img {
+    margin-top: -250px;
+  }
+  
+  

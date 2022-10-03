@@ -1,0 +1,128 @@
+header {
+	/* display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 80px;
+	padding: 0 2rem; */
+	background-color: #686464;
+	/* color: var(--textColor); */
+}
+
+nav{
+  display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 80px;
+	padding: 0 4rem 0 3rem;
+	background-color: #ffff;
+  font-weight: 600;
+	/* color: var(--textColor); */
+}
+
+.upbtn {
+  background-color: #530976;
+  border: 1px solid black;
+
+}
+
+.upbtn a {
+  background-color: #530976;
+  border: 1px solid black;
+
+}
+.btn{
+  background-color: #530976;
+  padding-left: 10px;
+}
+
+.contact-left{
+  padding: 10px 20px;
+  background-color: #530976;
+  border-radius: 7px;
+  color: #F6F6F6;
+  font-weight: 700;
+  
+}
+
+.contact-top{
+  font-size: 20px;
+  padding: 10px; 
+  border: 2px solid black;
+  color: #121212;
+  text-align: center;
+  margin-right: 300px;
+}
+
+.contact-top:hover{
+    background-color: gainsboro;
+}
+/* .contact{
+  padding: 10px 20px;
+  background-color: #970dd7;
+  border-radius: 7px;
+  color: #cc5c5c;
+  font-weight: 700;
+  
+} */
+ul{
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  text-decoration: none;
+  list-style: none;
+  
+}
+.btn1{
+  background-color: #530976;
+ 
+}
+nav a {
+        margin: 0;
+        padding: 0px;
+        color: black;
+}
+
+nav a:hover {
+  /* padding: 10px; */
+	color: #afa5b4;
+}
+
+header .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+/* 
+header div,
+nav {
+	display: flex;
+	align-items: center;
+} */
+
+/* @media only screen and (max-width: 1024px) {
+	header .nav-btn {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	header nav {
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		background-color: #b86969;
+		transition: 1s;
+		transform: translateY(-100vh);
+	} */
