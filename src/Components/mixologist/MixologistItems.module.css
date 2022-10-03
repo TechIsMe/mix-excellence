@@ -1,0 +1,25 @@
+.mixologist {
+  margin: 0 auto;
+  text-align: center;
+  width: 45%;
+}
+.image {
+  width: 164px;
+  height: 164px;
+  border-radius: 100px;
+}
+.name {
+  padding: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.intro {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: left;
+}

@@ -14,8 +14,8 @@ const AboutUsList = (props) => {
           // image4Class={about.image4Class}
           // introBackground={about.introBackground}
           // serviceBackground={about.serviceBackground}
-          // introClass={about.introClass}
-          // serviceClass={about.serviceClass}
+          introClass={about.introClass}
+          serviceClass={about.serviceClass}
           intro={about.intro}
           service={about.service}
           image1={about.image1}
