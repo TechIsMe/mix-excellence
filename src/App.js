@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navigation from "./components/navbar/Navigation";
 import Banner from "./components/banner/Banner";
 import Hero from "./components/hero/Hero";
-import OurDrinks from "./components/popular-drinks/ourDrinks";
+import OurDrinks from "./components/popular-drinks/OurDrinks";
 
 import Footer from "./components/footer/Footer";
 // import Testimony from "./components/testimony/Testimony";
@@ -31,7 +31,7 @@ function App() {
       </Layout>
       <OurDrinks />
       {/* <Testimony /> */}
-      <Footer />
+      {/* <Footer /> */}
 
     </div>
   );

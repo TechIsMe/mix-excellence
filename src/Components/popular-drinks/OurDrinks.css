@@ -1,0 +1,67 @@
+/* our most popular drinks */
+.horizontal-line{
+    margin: 80px;
+  }
+  .ourdrinks{
+    margin: 100px 0 -70px;
+    /* font-weight: 600; */
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  
+  .right{
+    width: 53%;
+    float: right;
+    display: flex;
+    align-items: center;
+    /* margin-right:-150px; */
+  
+  }
+  
+  .text-right {
+    /* float:right; */
+    margin-right:-150px;
+    
+  }
+  .img-right{
+    margin:0 250px;
+  }
+  .text {
+    font-weight: 700;
+     font-family: "Montserrat" sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 24px;
+  }
+  .text-1 {
+  /* padding:0 25px; */
+  /* font-weight: 700; */
+  font-family: "Montserrat" sans-serif;
+  font-style: normal;
+  /* font-weight: 500; */
+  font-size: 14px;
+  line-height: 24px;
+  }
+  .left{
+    width: 53%;
+    float:left;
+    display: flex;
+    align-items: center;
+    margin-top:-200px
+  }
+  
+  .text-left {
+    /* float:right; */
+    margin-left:-150px;
+    
+  }
+  .top{
+    margin-top: -350px;
+  }
+  
+  
+  .horizontal-line{
+    margin: 80px;
+  }
