@@ -18,7 +18,7 @@ function App() {
         <Navigation />
         <Banner />
         <Hero />
-        {/* <Footer /> */}
+        <Footer />
 
         <Routes>
           <Route path="/" exact element={<AboutUs id="aboutUs" />}></Route>

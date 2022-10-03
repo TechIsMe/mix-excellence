@@ -1,0 +1,13 @@
+.main-footer {
+    color: white;
+    background-color: black;
+    padding-top: 1em;
+    position: relative; 
+     bottom: 5px; 
+    width: 100%;
+  }
+  
+  .list-unstyled{
+    font-size: 100%;
+    align-items: center;
+  }
