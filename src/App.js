@@ -13,6 +13,7 @@ import Footer from "./components/footer/Footer";
 // import Testimony from "./components/testimony/Testimony";
 
 import Mixologist from "./pages/Mixologist";
+import TestimonialSliders from "./components/testimony/TestimonialSlider";
 
 function App() {
   return (
@@ -33,10 +34,13 @@ function App() {
         </Routes>
         <AboutUs id="aboutUs" />
         <Mixologist id="mixologist" />
+      <OurDrinks />
+      <TestimonialSliders />
         {/* <AboutUs /> */}
         <Footer />
+
+        
       </Layout>
-      <OurDrinks />
       {/* <Testimony /> */}
     </div>
   );
