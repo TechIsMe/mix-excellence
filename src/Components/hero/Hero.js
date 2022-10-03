@@ -11,16 +11,14 @@ function Hero() {
         {!isLoggedIn && (
           <Link to="/auth" className={classes.hero}>
             <img
-              src={process.env.PUBLIC_URL + "/images/Whiskey image.png"}
+              src={process.env.PUBLIC_URL + "/images/Whiskey.png"}
               alt="wiskey"
             />
           </Link>
         )}
-        <img
-          src={process.env.PUBLIC_URL + "/images/pngegg 3.png"}
-          alt="wiskey"
-        />
+             <img src={process.env.PUBLIC_URL + "/images/Green.png"} alt="green margarita" />
       </div>
+
     </div>
   );
 }

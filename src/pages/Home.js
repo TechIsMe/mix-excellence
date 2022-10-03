@@ -1,5 +1,5 @@
 import React from "react";
-import Navigation from "../components/navbar/Navigation";
+import Navbar from "../components/navbar/Navbar";
 import Banner from "../components/banner/Banner";
 import Hero from "../components/hero/Hero";
 import AboutUs from "./AboutUs";
@@ -10,7 +10,7 @@ import Footer from "../components/footer/Footer";
 const Home = () => {
   return (
     <>
-      <Navigation />,
+      <Navbar/>,
       <Banner />,
       <Hero />,
       <AboutUs id="aboutUs" />,
