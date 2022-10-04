@@ -2,11 +2,13 @@ import React from "react";
 
 function OurDrinks() {
     return (
-  <section >
+  <section className="dwrapper">
       <div>
+        
       <h1 className='ourdrinks'>Our Most Popular Drinks</h1> 
-  
       </div>
+    
+
   <div className='moIMG'>
   <img src={process.env.PUBLIC_URL + "/images/Mojito image.png"} alt="wiskey" />
 

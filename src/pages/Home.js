@@ -5,6 +5,7 @@ import Hero from "../components/hero/Hero";
 import AboutUs from "./AboutUs";
 import Mixologist from "./Mixologist";
 import OurDrinks from "../components/popular-drinks/ourDrinks";
+import TestimonialSliders from "../components/testimony/TestimonialSlider"
 import Footer from "../components/footer/Footer";
 
 const Home = () => {
@@ -15,7 +16,8 @@ const Home = () => {
       <Hero />,
       <AboutUs id="aboutUs" />,
       <Mixologist id="mixologist" />,
-      <OurDrinks />,
+      <OurDrinks />
+      <TestimonialSliders />
       <Footer />
     </>
   );

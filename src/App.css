@@ -99,9 +99,22 @@ color: white;
 }
 
 /* our popular drinks */
+
+
+.dwrapper{
+  margin: auto;
+ 
+  /* padding-top: 30px; */
+
+  /* width: 40%; */
+
+}
+.horizontal-line{
+  margin: 30px;
+}
 .ourdrinks{
-  margin: 100px;
-  /* font-weight: 600; */
+  margin-top: 100px;
+  /* border-style: dashed; */
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 
@@ -109,7 +122,8 @@ color: white;
 
 .moIMG{
   position: relative;
-  top: 150px;
+  margin-top: 10px;
+  top: 0px;
   left: 780px;
 }
 
@@ -204,9 +218,12 @@ color: darkgray;
 .BButton{
   background-color: #530976;
   padding: 10px;
+  width: 250px;
+  color: azure;
+  font-style: bold;
   margin-left: 600px;
   border: 2px solid black;
   border-radius: 10px;
   position: absolute;
-  bottom: 600px;
+  bottom: 800px;
 }
