@@ -23,19 +23,19 @@ const AdminAboutUsForm = (props) => {
 
     const imageResponse1 = await uploadToStorage(
       enteredImage1,
-      "images/services/serivce1.png"
+      "images/services/service1.png"
     );
     const imageResponse2 = await uploadToStorage(
       enteredImage2,
-      "images/services/serivce2.png"
+      "images/services/service2.png"
     );
     const imageResponse3 = await uploadToStorage(
       enteredImage3,
-      "images/services/serivce3.png"
+      "images/services/service3.png"
     );
     const imageResponse4 = await uploadToStorage(
       enteredImage4,
-      "images/services/serivce4.png"
+      "images/services/service4.png"
     );
 
     const aboutUsData = {

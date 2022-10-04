@@ -1,6 +1,6 @@
 .content {
   margin: 20px auto;
-  height: 190vh;
+  height: fit-content;
 }
 .h1 {
   text-align: center;

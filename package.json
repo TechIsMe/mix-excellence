@@ -7,14 +7,21 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.1",
+    "clsx": "^1.2.1",
     "firebase": "^9.10.0",
+<<<<<<< HEAD
     "font-awesome": "^4.7.0",
+=======
+    "nanoid": "^4.0.0",
+>>>>>>> 9399587b0d4cb3a3fa1c84a9ca3a5b44b6607586
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
     "react-router-dom": "^6.4.0",
     "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.5",
     "web-vitals": "^2.1.4"
   },

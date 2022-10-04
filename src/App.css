@@ -16,7 +16,7 @@ body {
   background-color: white;
 }
 
-.banner {
+/* .banner {
   margin-top: 0;
   background-position: top center;
   background-repeat: no-repeat;
@@ -59,11 +59,11 @@ color: white;
 }
 .banner{
   text-align: center;
-}
+} */
 
 
 /* hero section */
-.hero{
+/* .hero{
   background-color: #121212;
   display: flex;
   justify-content: space-between;
@@ -78,6 +78,9 @@ color: white;
   animation: updown 3s linear infinite;
   margin-top: -250px;
 }
+<<<<<<< HEAD
+ */
+=======
 
 /* footer */
 
@@ -94,4 +97,136 @@ color: white;
   align-items: center;
 }
 
+<<<<<<< HEAD
  */
+=======
+/* our popular drinks */
+
+
+.dwrapper{
+  margin: auto;
+ 
+  /* padding-top: 30px; */
+
+  /* width: 40%; */
+
+}
+.horizontal-line{
+  margin: 30px;
+}
+.ourdrinks{
+  margin-top: 100px;
+  /* border-style: dashed; */
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.moIMG{
+  position: relative;
+  margin-top: 10px;
+  top: 0px;
+  left: 780px;
+}
+
+.text{
+  font-family: "Montserrat" sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 24px;
+  color: #0d0d0d;
+  position: relative;
+  top: -350px;
+}
+>>>>>>> d0d9244679b73c4271a062456b3a9c66af1ccc26
+
+
+.text-1{
+  font-family: "Montserrat" sans-serif;
+  /* font-style: normal; */
+  line-height: 24px;
+  color: darkgray;
+  font-weight: 400;
+  
+  position: relative;
+  top: -350px;
+}
+
+.strIMG{
+  position: relative;
+  left: 90px;
+  bottom: 200px;
+}
+.text2 {
+  color: #0d0d0d;
+  
+margin-left: 650px;
+position: absolute;
+top: 290px;
+}
+
+.text-2 {
+color: darkgray;
+
+margin-left: 630px;
+position: absolute;
+top: 320px;
+}
+
+.kisspng{
+  position: relative;
+  top: -450px;
+  left: 780px;
+}
+
+.text3 {
+  color: #0d0d0d;
+position: absolute;
+top: 200px;
+margin-left: -175px;
+}
+
+.text-3 {
+color: darkgray;
+  font-weight: 400;
+margin-left: -200px;
+position: absolute;
+top: 230px;
+}
+
+
+.beerIMG{
+  position: relative;
+  left: 90px;
+  top: -600px;
+  /* bottom: 250px; */
+}
+.text4 {
+  color: #0d0d0d;
+margin-left: 610px;
+position: absolute;
+top: 240px;
+}
+
+.text-4 {
+  margin-left: 600px;
+  position: absolute;
+color: darkgray;
+
+  top: 270px;
+  }
+  
+.BButton{
+  background-color: #530976;
+  padding: 10px;
+  width: 250px;
+  color: azure;
+  font-style: bold;
+  margin-left: 600px;
+  border: 2px solid black;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 800px;
+}
+>>>>>>> 9399587b0d4cb3a3fa1c84a9ca3a5b44b6607586
