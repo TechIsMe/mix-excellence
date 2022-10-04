@@ -54,6 +54,7 @@ import './OurDrinks.css'
 
 
 function OurDrinks() {
+<<<<<<< HEAD
   return (
 <section className='horizontal-line'>
     <div>
@@ -70,6 +71,18 @@ function OurDrinks() {
         <img src={process.env.PUBLIC_URL + "/images/Mojito image.png"} alt="wiskey" />
       </div>
     </div>
+=======
+    return (
+  <section className="dwrapper">
+      <div>
+        
+      <h1 className='ourdrinks'>Our Most Popular Drinks</h1> 
+      </div>
+    
+
+  <div className='moIMG'>
+  <img src={process.env.PUBLIC_URL + "/images/Mojito image.png"} alt="wiskey" />
+>>>>>>> 6ab99726f8ca85b96c0b414bc36b0a4710f2d940
 
 <div className='strIMG left'>
  <div>

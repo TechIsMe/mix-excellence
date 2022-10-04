@@ -16,11 +16,7 @@ body {
   background-color: white;
 }
 
-.banner {
-  margin-top: 0;
-  background-position: top center;
-  background-repeat: no-repeat;
-}
+
 
 .purple-btn{
 background-color: purple;
@@ -59,36 +55,10 @@ color: white;
 }
 .banner{
   text-align: center;
-}
+} 
 
 
-/* hero section */
-.hero{
-  background-color: #121212;
-  display: flex;
-  justify-content: space-between;
-  margin: auto;
-  width: 90%;
 
-}
-.hero-wrapper{
-  background-color: #121212;
-}
-.hero img {
-  animation: updown 3s linear infinite;
-  margin-top: -250px;
-}
-
-/* footer */
-
-.main-footer {
-  color: white;
-  background-color: black;
-  /* position: relative;  */
-  /* bottom: 1px; */
-  padding: 40px;
-  width: 100%;
-}
 
 .list-unstyled{
   font-size: 100%;
@@ -97,9 +67,20 @@ color: white;
 
 
 
- /* our popular drinks */
-/* .ourdrinks{
-  margin: 100px;
+/* our popular drinks */
+
+
+.dwrapper{
+  margin: auto;
+ 
+
+}
+.horizontal-line{
+  margin: 30px;
+}
+.ourdrinks{
+  margin-top: 100px;
+  /* border-style: dashed; */
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 
@@ -107,7 +88,8 @@ color: white;
 
 .moIMG{
   position: relative;
-  top: 150px;
+  margin-top: 10px;
+  top: 0px;
   left: 780px;
 }
 
@@ -121,6 +103,7 @@ color: white;
   position: relative;
   top: -350px;
 }
+
 
 
 .text-1{
@@ -199,9 +182,13 @@ color: darkgray;
 .BButton{
   background-color: #530976;
   padding: 10px;
+  width: 250px;
+  color: azure;
+  font-style: bold;
   margin-left: 600px;
   border: 2px solid black;
   border-radius: 10px;
   position: absolute;
-  bottom: 600px;
-}  */
+  bottom: 800px;
+}
+

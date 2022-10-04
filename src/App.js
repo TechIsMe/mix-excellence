@@ -1,38 +1,50 @@
 import "./App.css";
-import { Route, Routes } from "react-router-dom";
-import AboutUs from "./pages/AboutUs";
-import AdminAboutPage from "./pages/AdminAboutUs";
+import { useContext } from "react";
+import AuthContext from "./store/auth-context";
+import AuthPage from "./pages/AuthPage";
+import { Route, Routes, Navigate } from "react-router-dom";
+import AdminAboutPage from "./admin/aboutus/AdminAboutUs";
 import Layout from "./layout/Layout";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navigation from "./components/navbar/Navigation";
-import Banner from "./components/banner/Banner";
-import Hero from "./components/hero/Hero";
-import OurDrinks from "./components/popular-drinks/OurDrinks";
 
-import Footer from "./components/footer/Footer";
-// import Testimony from "./components/testimony/Testimony";
-
+import AdminMixologistPage from "./admin/mixologist/AdminMixologistPage";
+import Home from "./pages/Home";
 
 function App() {
+  const authCtx = useContext(AuthContext);
   return (
     <div className="App">
       <Layout>
-        <Navigation />
-        <Banner />
-        <Hero />
-        {/* <Footer /> */}
-
         <Routes>
-          <Route path="/" exact element={<AboutUs id="aboutUs" />}></Route>
-          <Route path="/admin-aboutus" element={<AdminAboutPage />}></Route>
+          <Route path="/" exact element={<Home />}></Route>
+          {authCtx.isLoggedIn && (
+            <>
+              <Route
+                path="/admin-aboutus-form"
+                element={
+                  !authCtx.isLoggedIn ? <Navigate to="/" /> : <AdminAboutPage />
+                }
+              ></Route>
+              <Route
+                path="/admin-mixologist-form"
+                element={
+                  !authCtx.isLoggedIn ? (
+                    <Navigate to="/" />
+                  ) : (
+                    <AdminMixologistPage />
+                  )
+                }
+              >
+                {!authCtx.isLoggedIn && <Navigate to="/" />}
+              </Route>
+            </>
+          )}
+          {!authCtx.isLoggedIn && (
+            <Route path="/auth" element={<AuthPage />}></Route>
+          )}
+          <Route path="*" element={<Navigate to="/" />}></Route>
         </Routes>
-        {/* <AboutUs /> */}
-
       </Layout>
-      <OurDrinks />
-      {/* <Testimony /> */}
-      {/* <Footer /> */}
-
     </div>
   );
 }

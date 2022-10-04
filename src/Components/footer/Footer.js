@@ -1,4 +1,7 @@
 import React from "react";
+import './Footer.css';
+import { FaInstagram } from 'react-icons/fa';
+
 
 function Footer() {
   return (
@@ -6,7 +9,7 @@ function Footer() {
       <div className="container">
         <div className="row">
           <div className="col">
-            <h4>Email:</h4>
+            <h4 className="list-unstyled">Email:</h4>
             <h1 className="list-unstyled">
               <li>Roelprado@Mixcellence</li>
               <li>Mixcellence@Mixcellence</li>
@@ -14,7 +17,9 @@ function Footer() {
           </div>
           <div className="col">
             <ui className="list-unstyled">
-              <li>@Mixcellence</li>
+              <li>
+                <FaInstagram/>
+                @Mixcellence</li>
               
             </ui>
           </div>

@@ -4,7 +4,6 @@ import { getDownloadURL, getStorage, ref, uploadBytes } from "firebase/storage";
 const firebaseConfig = {
   storageBucket: process.env.REACT_APP_FIREBASE_STORAGE, //IMPORTANT: change this to match you app.
 };
-console.log(process.env);
 //  Initialize Firebase
 let app;
 // Check to see if the app already exists, if not initialize it.
