@@ -9,7 +9,7 @@ function Footer() {
       <div className="container">
         <div className="row">
           <div className="col">
-            <h4>Email:</h4>
+            <h4 className="list-unstyled">Email:</h4>
             <h1 className="list-unstyled">
               <li>Roelprado@Mixcellence</li>
               <li>Mixcellence@Mixcellence</li>
