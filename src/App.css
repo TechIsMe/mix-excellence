@@ -16,79 +16,10 @@ body {
   background-color: white;
 }
 
-/* .banner {
-  margin-top: 0;
-  background-position: top center;
-  background-repeat: no-repeat;
-}
-
-.purple-btn{
-background-color: purple;
-color: white;
-}
-
-.mix-header{
-  background-color: white;
-  align-items: center;
-  padding: 40px 0;
-}
-
-.mix{
-  font-size: x-large;
-  padding: 30px;
-  border: 2px solid black;
-  color: #121212;
-  text-align: center;
-  width: 40%;
-  margin: auto;
-}
-
-.mix-header p{
-  padding: 30px;
-}
-.contact{
-  display: flex;
-  width: 30%;
-  margin: auto;
-  justify-content: space-between;
-}
-
-.contact button{
-  border: 1px solid black;
-  padding: 10px;
-}
-.banner{
-  text-align: center;
-} */
-
-
-/* hero section */
-/* .hero{
-  background-color: #121212;
-  display: flex;
-  justify-content: space-between;
-  margin: auto;
-  width: 90%;
-
-}
-.hero-wrapper{
-  background-color: #121212;
-}
-.hero img {
-  animation: updown 3s linear infinite;
-  margin-top: -250px;
-}
-<<<<<<< HEAD
- */
-=======
-
-/* footer */
 
 .main-footer {
   color: white;
   background-color: black;
-  /* position: relative;  */
-  /* bottom: 1px; */
   padding: 40px;
   width: 100%;
 }
@@ -123,7 +54,6 @@ color: white;
   position: relative;
   top: -350px;
 }
->>>>>>> d0d9244679b73c4271a062456b3a9c66af1ccc26
 
 
 .text-1{
