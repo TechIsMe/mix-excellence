@@ -1,15 +1,15 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import AdminAboutUsForm from "./AdminAboutUsForm";
-
+import AdminMixologistForm from "../mixologist/AdminMixologistForm";
 const AdminAboutPage = (props) => {
   const history = useNavigate();
-  const addAboutusHandler = (aboutUsData) => {
+
+  const addMixologistHandler = (mixologistData) => {
     //return promise
-    const url = process.env.REACT_APP_API_URL;
+    const url = process.env.REACT_APP_API_MIXOLOGIST_URL;
     fetch(url, {
       method: "POST",
-      body: JSON.stringify(aboutUsData),
+      body: JSON.stringify(mixologistData),
       headers: {
         "Content-Type": "application/json",
       },
@@ -27,11 +27,13 @@ const AdminAboutPage = (props) => {
       window.location.reload();
     });
   };
-
   return (
     <section>
-      <h1>Add About Us</h1>
-      <AdminAboutUsForm onAddAboutUs={addAboutusHandler} />
+      <h1>Add Mixologist</h1>
+      <AdminMixologistForm
+        onAddMixologist={addMixologistHandler}
+        onClick={() => history("/admin-mixologist")}
+      />
     </section>
   );
 };
