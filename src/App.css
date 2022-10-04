@@ -80,15 +80,14 @@ color: white;
 }
 <<<<<<< HEAD
  */
-=======
+
 
 /* footer */
 
-.main-footer {
+/* .main-footer {
   color: white;
   background-color: black;
-  /* position: relative;  */
-  /* bottom: 1px; */
+
   padding: 40px;
   width: 100%;
 }
@@ -97,6 +96,9 @@ color: white;
   font-size: 100%;
   align-items: center;
 }
+
+<<<<<<< HEAD
+ */
 
 /* our popular drinks */
 
@@ -137,7 +139,7 @@ color: white;
   position: relative;
   top: -350px;
 }
->>>>>>> d0d9244679b73c4271a062456b3a9c66af1ccc26
+
 
 
 .text-1{
@@ -227,3 +229,4 @@ color: darkgray;
   position: absolute;
   bottom: 800px;
 }
+
