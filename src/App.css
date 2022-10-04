@@ -18,19 +18,54 @@ body {
 
 
 
-.main-footer {
-  color: white;
-  background-color: black;
-  /* position: relative;  */
-  /* bottom: 1px; */
-  padding: 40px;
-  width: 100%;
+.purple-btn{
+background-color: purple;
+color: white;
 }
+
+.mix-header{
+  background-color: white;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.mix{
+  font-size: x-large;
+  padding: 30px;
+  border: 2px solid black;
+  color: #121212;
+  text-align: center;
+  width: 40%;
+  margin: auto;
+}
+
+.mix-header p{
+  padding: 30px;
+}
+.contact{
+  display: flex;
+  width: 30%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.contact button{
+  border: 1px solid black;
+  padding: 10px;
+}
+.banner{
+  text-align: center;
+} 
+
+
+
 
 .list-unstyled{
   font-size: 100%;
   align-items: center;
 }
+
+
 
 /* our popular drinks */
 
@@ -68,6 +103,7 @@ body {
   position: relative;
   top: -350px;
 }
+
 
 
 .text-1{
@@ -157,3 +193,4 @@ color: darkgray;
   position: absolute;
   bottom: 800px;
 }
+
