@@ -3,7 +3,7 @@
   width: 95%;
   max-width: 25rem;
   border-radius: 6px;
-  background-color: #38015c;
+  background-color: black;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   padding: 1rem;
   text-align: center;
@@ -44,11 +44,21 @@
   align-items: center;
 }
 
+.back {
+  position: relative;
+  bottom: 30px;
+  right: 120px;
+  background-color: white;
+  color: black;
+}
+.submit {
+  color: white;
+  background-color: #9f5ccc;
+}
 .actions button {
   cursor: pointer;
   font: inherit;
-  color: white;
-  background-color: #9f5ccc;
+
   border: 1px solid #9f5ccc;
   border-radius: 4px;
   padding: 0.5rem 2.5rem;

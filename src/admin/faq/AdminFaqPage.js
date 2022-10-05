@@ -20,7 +20,7 @@ const AdminFaqPage = (props) => {
   };
 
   return (
-    <section>
+    <section style={{ width: "50%", margin: "0 auto" }}>
       <h1>Add Faq</h1>
       <AdminFaqForm onAddFaq={addFaqHandler} />
     </section>
