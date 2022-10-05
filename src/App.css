@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -70,18 +70,18 @@ color: white;
 /* our popular drinks */
 
 
-.dwrapper{
+/* .dwrapper{
   margin: auto;
  
 
 }
 .horizontal-line{
   margin: 30px;
-}
-.ourdrinks{
-  margin-top: 100px;
+} */
+/* .ourdrinks{
+  margin-top: 100px; */
   /* border-style: dashed; */
-  text-align: center;
+  /* text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -91,9 +91,9 @@ color: white;
   margin-top: 10px;
   top: 0px;
   left: 780px;
-}
+} */
 
-.text{
+/* .text{
   font-family: "Montserrat" sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -191,4 +191,4 @@ color: darkgray;
   position: absolute;
   bottom: 800px;
 }
-
+  */

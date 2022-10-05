@@ -24,10 +24,10 @@ function Footer() {
             </ui>
           </div>
           <div className="col">
-            <ui className="list-unstyled">
+            <ul className="list-unstyled">
               <li>Phone</li>
                <li>831-578-1863</li>
-            </ui>
+            </ul>
           </div>
         </div>
       </div>
