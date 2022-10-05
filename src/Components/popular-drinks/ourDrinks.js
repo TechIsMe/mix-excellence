@@ -4,7 +4,7 @@ function OurDrinks() {
     return (
   <section className="dwrapper">
       <div>
-        
+        <hr/>
       <h1 className='ourdrinks'>Our Most Popular Drinks</h1> 
       </div>
     
@@ -37,9 +37,10 @@ function OurDrinks() {
   <h5 className='text4'>Beer</h5>
   <p className='text-4'>Malty & Sweet</p>
   </div>
-  <div className='btn'>
+  <div className=''>
   <button className='BButton'>Book Now</button>
   </div>
+  <hr/>
   </section>
   
     )
