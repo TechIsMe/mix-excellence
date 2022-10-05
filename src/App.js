@@ -4,6 +4,7 @@ import AuthContext from "./store/auth-context";
 import AuthPage from "./pages/AuthPage";
 import { Route, Routes, Navigate } from "react-router-dom";
 import AdminAboutPage from "./admin/aboutus/AdminAboutUs";
+import AdminFaqPage from "./admin/faq/AdminFaqPage";
 import Layout from "./layout/Layout";
 // import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -34,9 +35,14 @@ function App() {
                     <AdminMixologistPage />
                   )
                 }
-              >
-                {!authCtx.isLoggedIn && <Navigate to="/" />}
-              </Route>
+              ></Route>
+              <Route
+                path="/admin-faq-form"
+                element={
+                  !authCtx.isLoggedIn ? <Navigate to="/" /> : <AdminFaqPage />
+                }
+              ></Route>
+              {!authCtx.isLoggedIn && <Navigate to="/" />}
             </>
           )}
           {!authCtx.isLoggedIn && (

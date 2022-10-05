@@ -79,9 +79,11 @@ const AuthForm = () => {
   return (
     <section className={classes.auth}>
       <div className={classes.actions}>
-        <button onClick={goBackHandler}>Back</button>
+        <button className={classes.back} onClick={goBackHandler}>
+          Back
+        </button>
       </div>
-      <h1>{isLogin ? "Login" : "Sign Up"}</h1>
+      <h1>{isLogin ? "Admin Login" : "Admin Login"}</h1>
       <form onSubmit={submitHandler}>
         <div className={classes.control}>
           <label htmlFor="email">Your Email</label>
@@ -98,17 +100,15 @@ const AuthForm = () => {
           {error}
         </div>
         <div className={classes.actions}>
-          {!isLoading && (
-            <button>{isLogin ? "Login" : "Create Account"}</button>
-          )}
+          {!isLoading && <button className={classes.submit}>Submit</button>}
           {isLoading && <p>Sending Request</p>}
-          <button
+          {/* <button
             type="button"
             className={classes.toggle}
             onClick={switchAuthModeHandler}
           >
             {isLogin ? "Create new account" : "Login with existing account"}
-          </button>
+          </button> */}
         </div>
       </form>
     </section>

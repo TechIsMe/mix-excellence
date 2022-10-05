@@ -15,33 +15,34 @@ const AdminNavigation = () => {
   return (
     <header className={classes.adminHeader}>
       <nav className={classes.nav}>
-        <ul className={classes.ul}>
-          {/* {!isLoggedIn && (
+        {isLoggedIn && (
+          <ul className={classes.ul}>
+            {/* {!isLoggedIn && (
             <li>
               <Link to="/auth">Login</Link>
             </li>
           )} */}
-          {isLoggedIn && (
-            <ul>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/admin-aboutus-form">Add About Us</Link>
-              </li>
-              <li>
-                <Link to="admin-mixologist-form">Add Mixologist</Link>
-              </li>
-            </ul>
-          )}
-          {isLoggedIn && (
+
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/admin-aboutus-form">Add About Us</Link>
+            </li>
+            <li>
+              <Link to="admin-mixologist-form">Add Mixologist</Link>
+            </li>
+            <li>
+              <Link to="admin-faq-form">Add FAQ</Link>
+            </li>
+
             <li>
               <Link to="/" onClick={logoutHandler}>
                 Logout
               </Link>
             </li>
-          )}
-        </ul>
+          </ul>
+        )}
       </nav>
     </header>
   );
