@@ -18,7 +18,7 @@ function Footer() {
             <div>
                 <p><span>
                   <FaInstagram /> @Mixcellence_mobile_bar</span>
-                   </p>
+                  </p>
             </div>
         </div>
         <div className="footer-right">
