@@ -1,0 +1,60 @@
+body {
+    background: white;
+  }
+  .Slider {
+    /* width: 20%; */
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  .slick-slide > div {
+    margin: 0 10px;
+  }
+  .slick-list {
+    margin: 0 -10px;
+  }
+  
+  .card {
+    border: 3px solid black;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 300px;
+    color: black; 
+    flex-wrap: wrap;
+    display: flex;
+    
+   
+  }
+  .top-header{
+    font-weight: 300;
+    margin-left: 150px;
+   
+  }
+  
+  .card-top h1 {
+    font-size: 1.3rem;
+    margin: 20px;
+  }
+  
+  .card:hover{
+    background-color: rgb(212, 228, 224);
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all ls ease ;
+  }
+  /* h1{
+    margin-left: 580px;
+  } */
+  /* .card-top > img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    background: rgb(207, 192, 192);
+  } */
+  
+  .bottom-h3{
+    /* margin: 10px 20px; */
+    margin-left:350px;
+    
+  }
