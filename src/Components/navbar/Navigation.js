@@ -42,11 +42,11 @@ function Navigation() {
                 About us
               </Nav.Link>
               <Nav.Link
-                href="#skills"
+                href="#faq"
                 className={
-                  activeLink === "skills" ? "active navbar-link" : "navbar-link"
+                  activeLink === "faq" ? "active navbar-link" : "navbar-link"
                 }
-                onClick={() => onUpdateActiveLink("skills")}
+                onClick={() => onUpdateActiveLink("faq")}
               >
                 FQA's
               </Nav.Link>

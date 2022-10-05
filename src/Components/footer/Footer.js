@@ -15,13 +15,12 @@ function Footer() {
           <div className="col">
             <ui className="list-unstyled">
               <li>@Mixcellence</li>
-              
             </ui>
           </div>
           <div className="col">
             <ui className="list-unstyled">
               <li>Phone</li>
-               <li>831-578-1863</li>
+              <li>831-578-1863</li>
             </ui>
           </div>
         </div>

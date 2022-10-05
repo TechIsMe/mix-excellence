@@ -21,7 +21,7 @@ const AdminMixologistForm = (props) => {
       enteredImage1,
       `images/mixologist/${id}.png`
     );
-
+    console.log(enteredImage1);
     const mixologistData = {
       id: id,
       mixologist1Name: enteredMixologist1Name,

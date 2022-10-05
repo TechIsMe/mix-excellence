@@ -6,6 +6,7 @@ import AboutUs from "./AboutUs";
 import Mixologist from "./Mixologist";
 import OurDrinks from "../components/popular-drinks/ourDrinks";
 import Footer from "../components/footer/Footer";
+import FaqPage from "./FaqPage";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Hero />,
       <AboutUs id="aboutUs" />,
       <Mixologist id="mixologist" />,
+      <FaqPage id="faq" />
       <OurDrinks />,
       <Footer />
     </>
