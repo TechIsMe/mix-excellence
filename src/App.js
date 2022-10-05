@@ -1,11 +1,11 @@
-import "./App.css";
+// import "./App.css";
 import { useContext } from "react";
 import AuthContext from "./store/auth-context";
 import AuthPage from "./pages/AuthPage";
 import { Route, Routes, Navigate } from "react-router-dom";
 import AdminAboutPage from "./admin/aboutus/AdminAboutUs";
 import Layout from "./layout/Layout";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 
 import AdminMixologistPage from "./admin/mixologist/AdminMixologistPage";
 import Home from "./pages/Home";
