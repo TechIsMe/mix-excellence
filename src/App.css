@@ -108,7 +108,6 @@ color: white;
 
 .text-1{
   font-family: "Montserrat" sans-serif;
-  /* font-style: normal; */
   line-height: 24px;
   color: darkgray;
   font-weight: 400;
@@ -164,7 +163,6 @@ top: 230px;
   position: relative;
   left: 90px;
   top: -600px;
-  /* bottom: 250px; */
 }
 .text4 {
   color: #0d0d0d;
