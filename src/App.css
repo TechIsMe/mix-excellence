@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -16,11 +16,7 @@ body {
   background-color: white;
 }
 
-/* .banner {
-  margin-top: 0;
-  background-position: top center;
-  background-repeat: no-repeat;
-}
+
 
 .purple-btn{
 background-color: purple;
@@ -59,63 +55,33 @@ color: white;
 }
 .banner{
   text-align: center;
-} */
+} 
 
 
-/* hero section */
-/* .hero{
-  background-color: #121212;
-  display: flex;
-  justify-content: space-between;
-  margin: auto;
-  width: 90%;
 
-}
-.hero-wrapper{
-  background-color: #121212;
-}
-.hero img {
-  animation: updown 3s linear infinite;
-  margin-top: -250px;
-}
-<<<<<<< HEAD
- */
-=======
-
-/* footer */
-
-.main-footer {
-  color: white;
-  background-color: black;
-  /* position: relative;  */
-  /* bottom: 1px; */
-  padding: 40px;
-  width: 100%;
-}
 
 .list-unstyled{
   font-size: 100%;
   align-items: center;
 }
 
+
+
 /* our popular drinks */
 
 
-.dwrapper{
+/* .dwrapper{
   margin: auto;
  
-  /* padding-top: 30px; */
-
-  /* width: 40%; */
 
 }
 .horizontal-line{
   margin: 30px;
-}
-.ourdrinks{
-  margin-top: 100px;
+} */
+/* .ourdrinks{
+  margin-top: 100px; */
   /* border-style: dashed; */
-  text-align: center;
+  /* text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -125,9 +91,9 @@ color: white;
   margin-top: 10px;
   top: 0px;
   left: 780px;
-}
+} */
 
-.text{
+/* .text{
   font-family: "Montserrat" sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -137,12 +103,11 @@ color: white;
   position: relative;
   top: -350px;
 }
->>>>>>> d0d9244679b73c4271a062456b3a9c66af1ccc26
+
 
 
 .text-1{
   font-family: "Montserrat" sans-serif;
-  /* font-style: normal; */
   line-height: 24px;
   color: darkgray;
   font-weight: 400;
@@ -198,7 +163,6 @@ top: 230px;
   position: relative;
   left: 90px;
   top: -600px;
-  /* bottom: 250px; */
 }
 .text4 {
   color: #0d0d0d;
@@ -227,3 +191,4 @@ color: darkgray;
   position: absolute;
   bottom: 800px;
 }
+  */

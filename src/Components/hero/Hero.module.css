@@ -1,6 +1,27 @@
-.hero {
+.secret {
   cursor: none;
 }
-.hero-wrapper{
+.hero-wrapper {
   background-color: #121212;
+}
+
+.hero {
+  background-color: #121212;
+  display: flex;
+  justify-content: space-between;
+  height: 250px;
+}
+
+.whiskey {
+  height: fit-content;
+  position: relative;
+  bottom: 215px;
+  left: 70px;
+}
+
+.margarita {
+  height: fit-content;
+  position: relative;
+  bottom: 377px;
+  right: 30px;
 }

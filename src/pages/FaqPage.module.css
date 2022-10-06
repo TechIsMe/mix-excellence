@@ -1,0 +1,14 @@
+.content {
+  margin: 20px auto;
+  height: fit-content;
+}
+.h1 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 100;
+  line-height: 55px;
+  letter-spacing: 0em;
+  margin: 70px auto;
+  width: 125px;
+  height: 55px;
+}
