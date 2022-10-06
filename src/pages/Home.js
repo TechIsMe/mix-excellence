@@ -7,17 +7,18 @@ import Mixologist from "./Mixologist";
 import OurDrinks from "../components/popular-drinks/ourDrinks";
 // import TestimonialSliders from "../components/testimony/TestimonialSlider"
 import Footer from "../components/footer/Footer";
+import FaqPage from "./FaqPage";
 
 const Home = () => {
   return (
     <>
-      <Navbar/>,
+      <Navbar />,
       <Banner />,
       <Hero />,
       <AboutUs id="aboutUs" />,
       <Mixologist id="mixologist" />,
-      <OurDrinks />
-      {/* <TestimonialSliders /> */}
+      <FaqPage id="faq" />
+      <OurDrinks />,
       <Footer />
     </>
   );
