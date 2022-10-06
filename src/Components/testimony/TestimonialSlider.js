@@ -60,12 +60,12 @@ function TestimonialSliders () {
                     : item.linkImg
                 }
                 alt={""}
-                // onError={handleErrorImage}
               />
-              <h1>{item.title}</h1>
+              <h1 >{item.title}</h1>
             </div>
+
             <div className="card-bottom">
-              <h3> <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/> {item.month}  </h3>
+              <h3> <FaStar className='fa'/><FaStar className='fa'/><FaStar className='fa'/><FaStar className='fa'/><FaStar className='fa'/> {item.month}  </h3>
               <span className="category">{item.text}</span>
             </div>
             <div className="card-bottom">
