@@ -24,13 +24,11 @@ function Navbar() {
           <a href="#testimony">Reviews</a>
         </li>
       </ul>
-      <div>
-        <p className="contact-top" href="/">
-          Mixcellence
-        </p>
+      <div className="contactUs">
+        <p href="#contactUs">Mixcellence</p>
       </div>
       <div className="">
-        <a className="contact-left" href="#contactus">
+        <a className="contact-left" href="#contactUs">
           Contact
         </a>
         {/* <button className="upbtn"> */}

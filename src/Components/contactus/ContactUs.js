@@ -28,7 +28,7 @@ export default function ContactUs() {
 
   return (
     <>
-      <section id="contact">
+      <section id="contactUs">
         <form
           className={classes.form}
           netlify="true"
