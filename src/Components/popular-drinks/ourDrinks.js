@@ -48,10 +48,10 @@ function OurDrinks() {
     <p className='text-4'>Malty&Sweet</p>
     </div>
   </div>
-{/* <div className=''>
+<div className=''>
 <button className='BButton'>Book Now</button>
 
-</div> */}
+</div>
 
 </section>
 
