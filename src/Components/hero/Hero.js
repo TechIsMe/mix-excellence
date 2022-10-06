@@ -13,7 +13,7 @@ function Hero() {
           <>
             <Link to="/auth">
               <img
-                className={classes.secret}
+                className={`${classes.secret}, ${classes.whiskey}`}
                 src={process.env.PUBLIC_URL + "/images/Whiskey.png"}
                 alt="wiskey"
               />
