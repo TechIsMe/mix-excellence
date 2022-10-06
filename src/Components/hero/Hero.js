@@ -19,6 +19,7 @@ function Hero() {
               />
             </Link>
             <img
+              className={classes.margarita}
               src={process.env.PUBLIC_URL + "/images/Green.png"}
               alt="green margarita"
             />
