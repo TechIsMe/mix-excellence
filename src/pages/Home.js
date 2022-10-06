@@ -12,13 +12,13 @@ import FaqPage from "./FaqPage";
 const Home = () => {
   return (
     <>
-      <Navbar />,
-      <Banner />,
-      <Hero />,
-      <AboutUs id="aboutUs" />,
-      <Mixologist id="mixologist" />,
+      <Navbar />
+      <Banner />
+      <Hero />
+      <AboutUs id="aboutUs" />
+      <Mixologist id="mixologist" />
       <FaqPage id="faq" />
-      <OurDrinks />,
+      <OurDrinks />
       <Footer />
     </>
   );

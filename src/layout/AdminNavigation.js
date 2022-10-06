@@ -13,38 +13,46 @@ const AdminNavigation = () => {
     // can useHistory to redirect too
   };
   return (
-    <header className={classes.adminHeader}>
-      <nav className={classes.nav}>
-        {isLoggedIn && (
-          <ul className={classes.ul}>
-            {/* {!isLoggedIn && (
+    // <header className={classes.adminHeader}>
+    <nav className={classes.nav}>
+      {isLoggedIn && (
+        <ul className={classes.ul}>
+          {/* {!isLoggedIn && (
             <li>
               <Link to="/auth">Login</Link>
             </li>
           )} */}
 
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/admin-aboutus-form">Add About Us</Link>
-            </li>
-            <li>
-              <Link to="admin-mixologist-form">Add Mixologist</Link>
-            </li>
-            <li>
-              <Link to="admin-faq-form">Add FAQ</Link>
-            </li>
+          <li className={classes.li}>
+            <Link className={classes.a} to="/">
+              Home
+            </Link>
+          </li>
+          <li className={classes.li}>
+            <Link className={classes.a} to="/admin-aboutus-form">
+              Add About Us
+            </Link>
+          </li>
+          <li className={classes.li}>
+            <Link className={classes.a} to="admin-mixologist-form">
+              Add Mixologist
+            </Link>
+          </li>
+          <li className={classes.li}>
+            <Link className={classes.a} to="admin-faq-form">
+              Add FAQ
+            </Link>
+          </li>
 
-            <li>
-              <Link to="/" onClick={logoutHandler}>
-                Logout
-              </Link>
-            </li>
-          </ul>
-        )}
-      </nav>
-    </header>
+          <li className={classes.li}>
+            <Link className={classes.a} to="/" onClick={logoutHandler}>
+              Logout
+            </Link>
+          </li>
+        </ul>
+      )}
+    </nav>
+    // </header>
   );
 };
 
