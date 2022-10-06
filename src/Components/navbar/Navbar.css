@@ -67,3 +67,11 @@ nav a:hover {
   /* padding: 10px; */
   color: #afa5b4;
 }
+
+.contactUs {
+  border: 3px solid black;
+  padding: 10px;
+  position: relative;
+  right: 160px;
+  font-family: "YoungSerif";
+}

@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import classes from "./FaqItems.module.css";
+import { Link } from "react-router-dom";
+
 const FaqItems = (props) => {
   const [is1Active, setIs1Active] = useState(false);
   const [is2Active, setIs2Active] = useState(false);
@@ -44,7 +46,9 @@ const FaqItems = (props) => {
       {is2Active && (
         <div className={classes.accordion_content}>
           <p>{props.question2Answer}</p>
-          <button>Contact Us</button>
+          <Link to="/contactUs">
+            <button>Contact Us</button>
+          </Link>
         </div>
       )}
       <div
