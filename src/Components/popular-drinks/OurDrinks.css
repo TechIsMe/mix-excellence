@@ -1,9 +1,10 @@
 /* our most popular drinks */
 
 
-/* .horizontal-line{
-    margin: 100px;
-  } */
+.horizontal-line{
+    height: 260vh;
+
+  }
   .ourdrinks{
     margin: 100px 0 -70px;
     text-align: center;
