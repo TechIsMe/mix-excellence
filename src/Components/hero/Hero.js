@@ -7,19 +7,38 @@ function Hero() {
   const authCtx = useContext(AuthContext);
   const isLoggedIn = authCtx.isLoggedIn;
   return (
-    <div className="hero-wrapper">
-      <div className="hero">
+    <div className={classes.hero_wrapper}>
+      <div className={classes.hero}>
         {!isLoggedIn && (
-          <Link to="/auth" className={classes.hero}>
+          <>
+            <Link to="/auth">
+              <img
+                className={classes.secret}
+                src={process.env.PUBLIC_URL + "/images/Whiskey.png"}
+                alt="wiskey"
+              />
+            </Link>
             <img
+              src={process.env.PUBLIC_URL + "/images/Green.png"}
+              alt="green margarita"
+            />
+          </>
+        )}
+        {isLoggedIn && (
+          <>
+            <img
+              className={classes.whiskey}
               src={process.env.PUBLIC_URL + "/images/Whiskey.png"}
               alt="wiskey"
             />
-          </Link>
+            <img
+              className={classes.margarita}
+              src={process.env.PUBLIC_URL + "/images/Green.png"}
+              alt="green margarita"
+            />
+          </>
         )}
-             <img src={process.env.PUBLIC_URL + "/images/Green.png"} alt="green margarita" />
       </div>
-
     </div>
   );
 }

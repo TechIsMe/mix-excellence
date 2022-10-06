@@ -1,33 +1,32 @@
 import React, { useState, useEffect } from "react";
-import AboutUsList from "../components/aboutus/AboutUsList";
-import classes from "./AboutUs.module.css";
-// import { ABOUT_DATA } from "../data";
+import classes from "./FaqPage.module.css";
+import FaqList from "../components/faq/FaqList";
 
-const AboutUs = () => {
+const FaqPage = () => {
   const [isLoading, setIsLoading] = useState(true);
-  const [loadedAboutUs, setLoadedAboutUs] = useState([]);
+  const [loadedFaq, setLoadedFaq] = useState([]);
   // send request to add meetups to home page
   useEffect(() => {
     setIsLoading(true);
     // place request in useEffect to prevent infinite loop by add dependencies in [] as second argument
-    const url = process.env.REACT_APP_API_ABOUTUS_URL;
+    const url = process.env.REACT_APP_API_FAQ_URL;
     fetch(url)
       .then((response) => {
         return response.json();
       })
       .then((data) => {
         // convert the obj data into array and push in setLoadedMeetups
-        const aboutUs = [];
+        const faqsObj = [];
         for (const key in data) {
-          const about = {
+          const faq = {
             id: key,
             ...data[key],
           };
-          aboutUs.push(about);
+          faqsObj.push(faq);
         }
         // can add error handling here
         setIsLoading(false);
-        setLoadedAboutUs(aboutUs);
+        setLoadedFaq(faqsObj);
       });
 
     // if second arguement was omitted, react will run the useEffect whenever the function component executes. That is why second aregument is needed because react will check the values added to array and compare to its last execution. IF its empty, react will then run the fetch function
@@ -36,17 +35,16 @@ const AboutUs = () => {
   if (isLoading) {
     return (
       <section>
-        <p>Loading ... </p>
+        <p>Loading FAQ's... </p>
       </section>
     );
   }
-
   return (
-    <div id="aboutUs" className={classes.content}>
-      <h1 className={classes.h1}>About Us</h1>
-      <AboutUsList aboutus={loadedAboutUs} />
+    <div id="faq" className={classes.content}>
+      <h1 className={classes.h1}>FAQ's</h1>
+      <FaqList faqs={loadedFaq} />
     </div>
   );
 };
 
-export default AboutUs;
+export default FaqPage;

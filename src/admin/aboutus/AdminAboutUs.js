@@ -6,7 +6,7 @@ const AdminAboutPage = (props) => {
   const history = useNavigate();
   const addAboutusHandler = (aboutUsData) => {
     //return promise
-    const url = process.env.REACT_APP_API_URL;
+    const url = process.env.REACT_APP_API_ABOUTUS_URL;
     fetch(url, {
       method: "POST",
       body: JSON.stringify(aboutUsData),
