@@ -17,3 +17,7 @@ Since this is just one page with one purpose we could pass in specific props and
 
 This also eliminated the use of mapping through AboutUsList.js
 `<AboutUsItems introBackground={about.introBackground}/>`
+
+## Author
+  * Johnson Thieu
+  * Bruktawit Wolde
