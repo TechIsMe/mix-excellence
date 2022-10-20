@@ -1,5 +1,7 @@
 ## Johnson Thieu
 
+## Table of contents
+
 
 What I Learned:
 
@@ -21,10 +23,13 @@ This also eliminated the use of mapping through AboutUsList.js
 
 ## Bruktawit Wolde
 
-## What I Learned 
+  What I Learned 
 
 This project taught me so much about developing a large and very complicated application. This was my first collaboration in a  large project with React and as well as in backend .Our goal was to create an app from a design that was very well thought out from our fellow apprentice UX/UI Design Teams.
 
 ## Author
-  * Johnson Thieu
+  * Johnson Thieu 
+   Linkedin(https://www.linkedin.com/in/johnson-thieu/)
+  
   * Bruktawit Wolde
+    Linkedin(https://www.linkedin.com/in/johnson-thieu/)
