@@ -34,7 +34,11 @@ This project taught me so much about developing a large and very complicated app
 
 ![Capture](https://user-images.githubusercontent.com/93556946/196827972-51845721-01db-488b-8093-fb9845dd23a3.PNG)
 
-![col2](https://user-images.githubusercontent.com/93556946/196828000-70f3ce40-1e12-43fc-9478-9523fbdf7edb.PNG)
+![Screenshot (47)](https://user-images.githubusercontent.com/93556946/196828268-e8f16deb-4875-4c24-8520-b272e4ff0fe7.png)
+
+
+![Screenshot (50)](https://user-images.githubusercontent.com/93556946/196828240-b3fc2984-3842-4b4a-81b4-66653efba219.png)
+
 
 
 
