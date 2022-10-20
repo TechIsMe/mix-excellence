@@ -1,6 +1,5 @@
-## Johnson Thieu
+* Johnson Thieu
 
-## Table of contents
 
 
 What I Learned:
@@ -21,7 +20,7 @@ Since this is just one page with one purpose we could pass in specific props and
 This also eliminated the use of mapping through AboutUsList.js
 `<AboutUsItems introBackground={about.introBackground}/>`
 
-## Bruktawit Wolde
+ * Bruktawit Wolde
 
   What I Learned 
 
@@ -34,10 +33,13 @@ This project taught me so much about developing a large and very complicated app
 
 ![Capture](https://user-images.githubusercontent.com/93556946/196827972-51845721-01db-488b-8093-fb9845dd23a3.PNG)
 
-![Screenshot (47)](https://user-images.githubusercontent.com/93556946/196828268-e8f16deb-4875-4c24-8520-b272e4ff0fe7.png)
+![col5](https://user-images.githubusercontent.com/93556946/196828569-4a0d30ca-3cdd-45ea-828b-84f4ec5a8333.PNG)
 
 
-![Screenshot (50)](https://user-images.githubusercontent.com/93556946/196828240-b3fc2984-3842-4b4a-81b4-66653efba219.png)
+![col6](https://user-images.githubusercontent.com/93556946/196828489-a988c620-db33-43f9-9ac4-2456ec886e58.PNG)
+
+
+
 
 
 
