@@ -24,19 +24,8 @@ This also eliminated the use of mapping through AboutUsList.js
 
   What I Learned 
 
-This project taught me so much about developing a large and very complicated application. This was my first collaboration in a  large project with React and as well as in backend .Our goal was to create an app from a design that was very well thought out from our fellow apprentice UX/UI Design Teams.
+ This project taught me so much about developing a large and very complicated application. This was my first collaboration in a  large project with React and as well as in backend .Our goal was to create an app from a design that was very well thought out from our fellow apprentice UX/UI Design Teams.
 
-## Screenshot
-
-![col1](https://user-images.githubusercontent.com/93556946/196828020-489b4eba-953c-4d51-8c56-12e62e21b65b.PNG)
-
-
-![Capture](https://user-images.githubusercontent.com/93556946/196827972-51845721-01db-488b-8093-fb9845dd23a3.PNG)
-
-
-![col6](https://user-images.githubusercontent.com/93556946/196828489-a988c620-db33-43f9-9ac4-2456ec886e58.PNG)
-
-![col5](https://user-images.githubusercontent.com/93556946/196828569-4a0d30ca-3cdd-45ea-828b-84f4ec5a8333.PNG)
 
 
 
