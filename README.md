@@ -1,5 +1,6 @@
 ## Johnson Thieu
 
+
 What I Learned:
 
 1. After building out the About Us page using jsx and css module, I realized that the data being rendered may need to be updated by the client. Therefore, I built separate smaller components and pages and passed in the data using props.
@@ -17,6 +18,12 @@ Since this is just one page with one purpose we could pass in specific props and
 
 This also eliminated the use of mapping through AboutUsList.js
 `<AboutUsItems introBackground={about.introBackground}/>`
+
+## Bruktawit Wolde
+
+## What I Learned 
+
+This project taught me so much about developing a large and very complicated application. This was my first collaboration in a  large project with React and as well as in backend .Our goal was to create an app from a design that was very well thought out from our fellow apprentice UX/UI Design Teams.
 
 ## Author
   * Johnson Thieu
