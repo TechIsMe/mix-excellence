@@ -29,7 +29,7 @@ This project taught me so much about developing a large and very complicated app
 
 ## Author
   * Johnson Thieu 
-   Linkedin(https://www.linkedin.com/in/johnson-thieu/)
+     *Linkedin(https://www.linkedin.com/in/johnson-thieu/)
   
   * Bruktawit Wolde
-    Linkedin(https://www.linkedin.com/in/johnson-thieu/)
+      *Linkedin(https://www.linkedin.com/in/bruktawit-wolde-588131219/))
